@@ -7,5 +7,6 @@ dev.db
 dist
 dist-babel
 node_modules
+node_modules_old
 yarn-error.log
 web/public/mockServiceWorker.js
