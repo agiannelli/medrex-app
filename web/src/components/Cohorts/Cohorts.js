@@ -89,14 +89,14 @@ const CohortsList = ({ cohorts }) => {
                   >
                     Edit
                   </Link>
-                  <a
+                  <button
                     href="#"
                     title={'Delete cohort ' + cohort.id}
                     className="rw-button rw-button-small rw-button-red"
                     onClick={() => onDeleteClick(cohort.id)}
                   >
                     Delete
-                  </a>
+                  </button>
                 </nav>
               </td>
             </tr>
