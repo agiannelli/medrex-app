@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link, routes } from '@redwoodjs/router'
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,14 +20,13 @@ export const Nav = () => {
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
-                aria-label="Students"
-                title="Students"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link
+                to={routes.students()}
+                className="font-medium tracking-wide text-gray-700
+              transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Students
-              </a>
+              </Link>
             </li>
             <li>
               <a
