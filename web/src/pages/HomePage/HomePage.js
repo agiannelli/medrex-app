@@ -1,8 +1,10 @@
+import logo from 'src/img/medrex-logo-transparent.png'
+
 const HomePage = () => {
   return (
-    <>
-      <h1 className="text-center">Welcome to MedRex!</h1>
-    </>
+    <div className="flex justify-center">
+      <img src={logo} alt="medrex dinosaur logo" />
+    </div>
   )
 }
 
