@@ -29,14 +29,13 @@ export const Nav = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/"
-                aria-label="Cohorts"
-                title="Cohorts"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              <Link
+                to={routes.cohorts()}
+                className="font-medium tracking-wide text-gray-700
+              transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Cohorts
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
